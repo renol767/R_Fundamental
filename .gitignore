@@ -1,9 +1,13 @@
 .Rproj.user
 barandpiechartdatakependudukandki.R
-Data Intro Statistik.R
 facetinghistogram.R
 facetingscatterplot.R
 ggplotdkikepadatankelurahan.R
 ggplotinflasi.R
 inflasi.csv
-data_intro.csv
+covid_19_indonesia_time_series_all.csv
+covidindonesia.R
+miniproject1.R
+miniproject2.R
+lo5_m01_mp01.csv
+lo5_m01_mp02.csv
