@@ -8,3 +8,5 @@ diamonds <- read.csv("diamonds.csv")
 diamondsplot <- ggplot(data = diamonds,
        mapping = aes(x = carat, y = price, colour = clarity)) +
   geom_point()
+
+diamondsplot

@@ -12,8 +12,8 @@ plot.dki <- plot.dki + theme(axis.text.x = element_text(angle=45,vjust = 0.5), p
 plot.dki <- plot.dki + geom_text(position = position_dodge(1.2))
 plot.dki
 
-#Plot grafik pie chart
-#plot.dki.pie <- ggplot(data=p, aes(x="", y=JUMLAH, fill = NAMA.KABUPATEN.KOTA))
-#plot.dki.pie <- plot.dki.pie + geom_bar(width = 1, stat = "identity")
-#plot.dki.pie <- plot.dki.pie + coord_polar("y", start=0)
-#plot.dki.pie
+# Plot grafik pie chart
+plot.dki.pie <- ggplot(data=p, aes(x="", y=JUMLAH, fill = NAMA.KABUPATEN.KOTA))
+plot.dki.pie <- plot.dki.pie + geom_bar(width = 1, stat = "identity")
+plot.dki.pie <- plot.dki.pie + coord_polar("y", start=0)
+plot.dki.pie
